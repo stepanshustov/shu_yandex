@@ -3,21 +3,10 @@ from flask import *
 app = Flask(__name__)
 
 
-@app.route('/')
-def mn():
-    return "Миссия Колонизация Марса"
-
-
-@app.route('/index/')
-def ind():
-    return "И на Марсе будут яблони цвести!"
-
-
-@app.route('/a/')
-def fun():
-    user = "Ученик Яндекс.Лицея"
-    return render_template('f.html', title='Домашняя страница',
-                           username=user)
+@app.route('/<tl>')
+@app.route('/index/<tl>')
+def ind(tl="подстановка "):
+    return render_template('index.html', tl=tl)
 
 
 if __name__ == '__main__':
