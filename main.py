@@ -3,10 +3,11 @@ from flask import *
 app = Flask(__name__)
 
 
-@app.route('/<tl>')
+@app.route('/')
 @app.route('/index/<tl>')
-def ind(tl="подстановка "):
-    return render_template('index.html', tl=tl)
+@app.route('/index/')
+def ind(tl="заголовок"):
+    return render_template('index.html', title=tl)
 
 
 if __name__ == '__main__':
