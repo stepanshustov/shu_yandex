@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae33d01-61a6-452a-8d54-3dd132475ca6" name="Changes" comment="commit 4">
+    <list default="true" id="fae33d01-61a6-452a-8d54-3dd132475ca6" name="Changes" comment="commit 5">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +28,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2bwwi9nVSXGUleyRXtrsMjfth4z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -119,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707836406257</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit 5">
+      <option name="closed" value="true" />
+      <created>1707837227393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707837227393</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +139,7 @@
     <MESSAGE value="commit 2" />
     <MESSAGE value="commit 3" />
     <MESSAGE value="commit 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 4" />
+    <MESSAGE value="commit 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 5" />
   </component>
 </project>
