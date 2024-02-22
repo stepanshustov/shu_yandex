@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body>
+    <h1>Список профессий</h1>
+    {% for item in lt["list"] %}
+       <div> {{loop.index}}. {{item}}</div>
+    {% endfor %}
+</body>
+{% endblock %}
